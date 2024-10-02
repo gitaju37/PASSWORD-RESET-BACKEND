@@ -19,7 +19,7 @@ const mail = (email,randomString) => {
         html: `
         <h3>Dear User</h3>
         <p>We received a request to reset your password for your account. You can reset your password using the link below:</p>
-        <p><a href="http://localhost:5173/changepassword/">Click here to reset</a></p>
+        <p><a href="https://ajith-password-reset.netlify.app/changepassword/">Click here to reset</a></p>
         <P>Verification Code:<b>${randomString}</b></P>
         <p>If you didn’t request a password reset, you can ignore this email. Your password will remain unchanged.</p>
         <p>For your security, please reset your password as soon as possible.</p>
